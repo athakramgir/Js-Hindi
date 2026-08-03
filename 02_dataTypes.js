@@ -25,6 +25,6 @@ let isLoggedIn = true // boolean
 
 // object
 
-console.log(typeof "string")
+console.log(typeof "string") // this will give the type to be string
 console.log(typeof null) // type comes out to be an object
 console.log(typeof undefined)// type comes out to be undefined

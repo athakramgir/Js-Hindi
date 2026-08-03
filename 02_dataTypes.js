@@ -12,4 +12,4 @@ console.log("athak ramgir")
 
 name = "athak" // string
 age = 20 // number
-isLoggedIn = true // boolena
+isLoggedIn = true // boolean

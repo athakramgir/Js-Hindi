@@ -8,7 +8,7 @@ console.log(3
 
 console.log("athak ramgir")
 
-// data types
+// data types ecma
 
 var name = "athak" // string
 let age = 20 // number

@@ -10,6 +10,21 @@ console.log("athak ramgir")
 
 // data types
 
-name = "athak" // string
-age = 20 // number
-isLoggedIn = true // boolean
+var name = "athak" // string
+let age = 20 // number
+let isLoggedIn = true // boolean
+
+// number => 2 to power 53 
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value; let accountNumber = null; => this is defined and null 
+// undefined => let accountNumber; -> undefined, value has not been assigned
+// symbol => will be used in react, to uniquely identify individual components
+
+
+// object
+
+console.log(typeof "athak")
+console.log(typeof null) // type comes out to be an object
+console.log(typeof undefined)// type comes out to be undefined

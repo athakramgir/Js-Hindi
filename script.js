@@ -1,1 +1,0 @@
-console.log("Printing on the console");

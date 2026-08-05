@@ -22,7 +22,7 @@ console.log(newId)
 const bigNumber = 24425901754912709n
 console.log(typeof bigNumber)
 /*
-    FACT : JavaScript is a dynamically types language, i.e, data types need not to be declared explicitly.
+    FACT : JavaScript is a dynamically typed language, i.e, data types need not to be declared explicitly.
         This means that initially a variable can be of one data type but can be reassigned to a different data type. Example given below 
 */
 // example 

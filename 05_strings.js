@@ -4,6 +4,7 @@ let repoCount = 4
 console.log(name + repoCount + " yeah that's it") // this works but in modern programming below syntax works better
 
 console.log(`Hello My name is ${name} and i have a repo count of ${repoCount}.`); // more used in modern programming (more readable) modern way called as "String Intrapolation"
+// the above way should be used.
 
 // a string can also be declared as 
 const myString = new String("This-is a new String") // this invokes the object 
@@ -39,14 +40,14 @@ const url = "https://hitesh.com/hitesh%20choudhary"
 console.log(url)
 // url.replace("%20", "-") // again this happened to a copy not the actual url
 console.log(url.replace('%20', '-'))
-
+console.log(url.replace('https', 'http'))
 console.log(url.includes("hitesh"))// true : this finds out if the parameter given is in the string or not
-console.log(url.includes("athak")) // false
+console.log(url.includes("dummy")) // false
 
 const sample = "This is a sample string" 
 let strCopy = sample.split(); 
 console.log(strCopy) // gives out string as an array
-
+// words 
 let words = sample.split(" ") 
 console.log(words)
 

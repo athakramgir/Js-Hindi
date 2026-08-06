@@ -18,3 +18,20 @@ myObj2.email = "dummy2@gmail.com" // modified the email here. Since both myObj1 
 
 console.log(myObj2.email)
 console.log(myObj1.email) 
+
+//
+let obj = {
+    name : "Athak",
+    email : "dummy3@gmail.com",
+    address : {
+        houseNo : 86, 
+        streetName : "Mall Road"
+    }
+}
+
+let obj2 = {...obj} // shallow copy of the object : in this, the upper level or top level properties of the obj is copied to obj2 but objects and arrays are in shared reference
+
+obj.address.houseNo = 99 
+console.log(obj2.address.houseNo) // 99
+obj2.name = "Rishabh"
+console.log(obj.name) // copy has been created

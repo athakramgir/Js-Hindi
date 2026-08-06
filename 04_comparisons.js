@@ -16,9 +16,9 @@ console.log(null >= 0); // true
 /*
     this happens primarily because comparisons treat null as 0 and JS treats comparisons and equality check differently. Same confusion happens in undefined. These types of comparisons create confusion
 */
-console.log(undefined > 0); 
-console.log(undefined == 0); 
+console.log(undefined > 0);
+console.log(undefined == 0);
 console.log(undefined >= 0);
-
+// I always get a false
 // Strict check (===) : this will strictly check the two comparing values, meaning along with the values it will also check the data type
 console.log("2" === 2); // hence this gives a false (data type also checked) 

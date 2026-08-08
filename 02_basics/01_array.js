@@ -29,7 +29,7 @@ console.log(sample)
 console.log(sample.includes(9)) // false value (boolean)
 console.log(sample.indexOf(9)) // -1 as 9 is not in the array 
 
-const myArray2 = sample.join()
+const myArray2 = sample.join() // returns a string
 console.log(myArray2, typeof(myArray2)) 
 
 // slice or splice methods in arrays
